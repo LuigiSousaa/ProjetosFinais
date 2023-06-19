@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUGYPLAY</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid" data-bs-theme="dark">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid justify-content-space-between">
+          <a class="navbar-brand" href="/inicial.html">
+            <img src="IMG/Logo.png" alt="LOGO" width="240" height="110">
+          </a>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Menu
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/inicial.html">Home</a></li>
+              <li><a class="dropdown-item" href="/OsMaisVendidos.html">Os mais vendidos</a></li>
+              <li><a class="dropdown-item" href="/TodosOsIngressos.html">Todos os ingressos</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="h-100 gradient-form" style="background-color: #eee;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-xl-10">
+          <div class="card rounded-3 text-black">
+            <div class="row g-0">
+              <div class="col-lg-6">
+                <div class="card-body p-md-5 mx-md-4">
+
+                  <div class="text-center">
+                    <img src="/IMG/Logo.png " style="width: 270px;" alt="logo">
+                    <h4 class="mt-1 mb-5 pb-1">Nós somos a equipe LUGY</h4>
+                  </div>
+
+                  <form>
+                    <p>Cadastre aqui sua conta</p>
+
+                    <div class="form-outline mb-4">
+                      <input type="email" id="form2Example11" class="form-control"/>
+                      <label class="form-label" for="form2Example11">Usuário</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <input type="password" id="form2Example22" class="form-control"/>
+                      <label class="form-label" for="form2Example22">Senha</label>
+                    </div>
+
+                    <div class="text-center pt-1 mb-5 pb-1">
+                      <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" href="/inicial.html" type="button" onclick="cadastrado()">Cadastrar
+                      </button>
+                    </div>
+
+                  </form>
+
+                </div>
+              </div>
+              <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                  <h4 class="mb-4">Somos bem mais que uma empresa</h4>
+                  <p class="small mb-0">Na LUGYPLAY, entendemos a paixão que o
+                    futebol desperta em todos nós. É por isso que nos dedicamos a fornecer uma plataforma simples,
+                    confiável e conveniente para que você possa garantir seus lugares nos estádios e vivenciar a energia
+                    inigualável das partidas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-center text-white">
+
+    <div class="container p-4 pb-0">
+
+        <section class="mb-4">
+
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" style="width: 40px;"
+                href="https://www.facebook.com/profile.php?id=100075848354453" role="button"><i
+                    class="fa fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" style="width: 40px;"
+                href="https://twitter.com/SenaiLimeira" role="button"><i class="fa fa-twitter"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" style="width: 40px;"
+                href="https://www.instagram.com/luigi_sousaa/?next=%2F" role="button"><i
+                    class="fa fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" style="width: 40px;"
+                href="https://www.linkedin.com/in/luigi-sousa-8bbb63228/" role="button"><i
+                    class="fa fa-linkedin"></i></a>
+
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" style="width: 40px;"
+                href="https://github.com/luigisousagh" role="button"><i class="fa fa-github"></i></a>
+        </section>
+
+    </div>
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="/inicial.html">LUGYPLAY</a>
+    </div>
+
+    <!-- Copyright -->
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="/script.js"></script>
+</html>
